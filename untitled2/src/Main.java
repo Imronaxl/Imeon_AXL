@@ -3,13 +3,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-//        int[] array1 = ArrayProvider(10, 5); // Исправлено на верное название метода
-//        quickSort(array1);
-//        printArray(array1);
-       // ProvideTime(1000000, 5000);
-        String a = "Abcda";
-        a += "BASD";
-        System.out.println(a);
+        int[] array1 = ArrayProvider(10, 5); // Исправлено на верное название метода
+        quickSort(array1);
+        printArray(array1);
+        ProvideTime(1000000, 5000);
+//        String a = "Abcda";
+//        a += "BASD";
+//        System.out.println(a);
     }
 
     public static int[] ArrayProvider(int n, int k){ // Исправлено на верное имя метода
